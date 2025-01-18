@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphique des Transactions Ethereum</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Graphique des Transactions Ethereum</h1>
+    <canvas id="ethChart" width="400" height="200"></canvas>
+    <script>
+        // Fonction pour récupérer les données du serveur
+        async function fetchData() {
+            try {
+                const response = await fetch('/wallet/get_data');
+                const data = await response.json();
+                return data;
+            } catch (error) {
+                console.error("Erreur lors de la récupération des données :", error);
+            }
+        }
+
+        // Fonction pour afficher le graphique
+        async function renderChart() {
+            const data = await fetchData();
+            const dates = data.map(item => item.date);
+            const values = data.map(item => item.value);
+
+            const ctx = document.getElementById('ethChart').getContext('2d');
+            const ethChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: dates,
+                    datasets: [{
+                        label: 'Valeur Ethereum en EUR',
+                        data: values,
+                        fill: false,
+                        borderColor: 'rgba(75, 192, 192, 1)',
+                        tension: 0.1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        x: {
+                            title: {
+                                display: true,
+                                text: 'Date'
+                            }
+                        },
+                        y: {
+                            title: {
+                                display: true,
+                                text: 'Valeur (EUR)'
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        // Appeler la fonction pour afficher le graphique lorsque la page est chargée
+        renderChart();
+    </script>
+</body>
+</html>

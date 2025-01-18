@@ -1,0 +1,31 @@
+{"level":"info","message":"Backend en cours d'exécution sur le port 5000","timestamp":"2025-01-15T09:25:04.476Z"}
+{"level":"info","message":"Requête reçue : GET /api/v1/blockNumber%0A","timestamp":"2025-01-15T09:25:40.230Z"}
+{"level":"info","message":"Requête reçue : GET /api/v1/blockNumber%0A","timestamp":"2025-01-15T09:25:46.344Z"}
+{"level":"info","message":"Requête reçue : GET /api/v1/blockNumber%0A","timestamp":"2025-01-15T09:33:43.201Z"}
+{"level":"info","message":"Requête reçue : GET /api/v1/blockNumber%0A","timestamp":"2025-01-15T09:40:42.565Z"}
+{"level":"info","message":"Requête reçue : GET /api/v1/blockNumber","timestamp":"2025-01-15T09:42:19.201Z"}
+{"level":"info","message":"Requête reçue : GET /api/v1/prices?fsym=BTC&tsyms=USD,EUR","timestamp":"2025-01-15T09:46:04.236Z"}
+{"level":"info","message":"Requête reçue : GET /api/v1/prices","timestamp":"2025-01-15T09:46:14.036Z"}
+{"level":"info","message":"Requête reçue : GET /api/v1/prices","timestamp":"2025-01-15T09:46:23.837Z"}
+{"level":"info","message":"Requête reçue : GET /api/v1/prices","timestamp":"2025-01-15T09:47:50.888Z"}
+{"level":"info","message":"Requête reçue : GET /api/v1/block","timestamp":"2025-01-15T09:47:56.920Z"}
+{"level":"info","message":"Requête reçue : GET /api/v1/prices?fsym=BTC&tsyms=USD,EUR","timestamp":"2025-01-15T09:48:05.951Z"}
+{"level":"info","message":"Requête reçue : GET /api/v1/prices?fsym=BTC&tsyms=USD,EUR","timestamp":"2025-01-15T10:03:52.636Z"}
+{"level":"info","message":"Requête reçue : GET /api/v1/prices?fsym=BTC&tsyms=USD,EUR","timestamp":"2025-01-15T10:04:59.801Z"}
+{"level":"info","message":"Requête reçue : GET /api/v1/prices?fsym=BTC&tsyms=USD,EUR","timestamp":"2025-01-15T10:05:01.164Z"}
+{"level":"info","message":"Backend en cours d'exécution sur le port 5000","timestamp":"2025-01-15T10:08:17.988Z"}
+{"level":"info","message":"Requête reçue : GET /api/v1/prices?fsym=BTC&tsyms=USD,EUR","timestamp":"2025-01-15T10:08:23.905Z"}
+{"level":"info","message":"Backend en cours d'exécution sur le port 5000","timestamp":"2025-01-15T10:20:54.139Z"}
+{"level":"info","message":"Requête reçue : GET /api/v1/transactions?address=0xYourEthereumAddress","timestamp":"2025-01-15T10:21:12.453Z"}
+{"level":"info","message":"Requête reçue : GET /api/v1/transactions?address=0x742d35Cc6634C0532925a3b844Bc454e4438f44e","timestamp":"2025-01-15T10:21:51.942Z"}
+{"level":"info","message":"Requête reçue : GET /api/v1/transactions?address=0x742d35Cc6634C0532925a3b844Bc454e4438f44e","timestamp":"2025-01-15T10:58:07.734Z"}
+{"level":"info","message":"Backend en cours d'exécution sur le port 5000","timestamp":"2025-01-15T12:15:14.834Z"}
+{"level":"info","message":"Requête reçue : GET /api/v1/transactions?address=0x9aa99c23f67c81701c772b106b4f83f6e858dd2e","timestamp":"2025-01-15T12:15:40.710Z"}
+{"level":"info","message":"Backend en cours d'exécution sur le port 5000","timestamp":"2025-01-15T12:23:46.088Z"}
+{"level":"info","message":"Requête reçue : GET /api/v1/transactions?address=0x9aa99c23f67c81701c772b106b4f83f6e858dd2e","timestamp":"2025-01-15T12:23:50.547Z"}
+{"level":"info","message":"Backend en cours d'exécution sur le port 5000","timestamp":"2025-01-15T12:29:12.321Z"}
+{"level":"info","message":"Requête reçue : GET /api/v1/transactions?address=0x9aa99c23f67c81701c772b106b4f83f6e858dd2e","timestamp":"2025-01-15T12:29:16.678Z"}
+{"level":"info","message":"Backend en cours d'exécution sur le port 5000","timestamp":"2025-01-15T12:33:50.901Z"}
+{"level":"info","message":"Requête reçue : GET /api/v1/transactions?address=0x9aa99c23f67c81701c772b106b4f83f6e858dd2e","timestamp":"2025-01-15T12:34:43.069Z"}
+{"level":"info","message":"Backend en cours d'exécution sur le port 5000","timestamp":"2025-01-15T12:50:23.745Z"}
+{"level":"info","message":"Requête reçue : GET /api/v1/transactions?address=0x9aa99c23f67c81701c772b106b4f83f6e858dd2e","timestamp":"2025-01-15T12:50:30.896Z"}

@@ -1,0 +1,8 @@
+{"level":"info","message":"Backend en cours d'exécution sur le port 5000","timestamp":"2025-01-14T15:34:14.034Z"}
+{"level":"info","message":"Requête reçue : GET /","timestamp":"2025-01-15T09:13:50.031Z"}
+{"level":"info","message":"Requête reçue : GET /favicon.ico","timestamp":"2025-01-15T09:13:50.284Z"}
+{"level":"info","message":"Requête reçue : GET /","timestamp":"2025-01-15T09:14:24.559Z"}
+{"level":"info","message":"Requête reçue : GET /api/v1/prices?fsym=BTC&tsyms=USD,EUR","timestamp":"2025-01-15T09:15:51.708Z"}
+{"level":"info","message":"Requête reçue : GET /api/v1/blockNumber?fsym=BTC&tsyms=USD,EUR","timestamp":"2025-01-15T09:16:34.957Z"}
+{"level":"info","message":"Requête reçue : GET /api/v1/blockNumber","timestamp":"2025-01-15T09:21:19.337Z"}
+{"level":"info","message":"Requête reçue : GET /api/v1/blockNumber","timestamp":"2025-01-15T09:21:21.700Z"}
